@@ -2,72 +2,61 @@
 
 # Hi, I'm Charm 👋
 
-### Freelance Web & Mobile Developer · Colombo, Sri Lanka
-
-I build full-stack products end to end — and lately, local-first AI agents that
-plan, code, and run themselves on your own hardware, no cloud required.
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-charm--perera--portfolio--site.vercel.app-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://charm-perera-portfolio-site.vercel.app)
-[![GitHub followers](https://img.shields.io/github/followers/CharmThiekshanaPerera?style=for-the-badge&logo=github&color=181717)](https://github.com/CharmThiekshanaPerera)
+**Freelance web & mobile developer, based in Colombo, Sri Lanka.**
 
 </div>
 
----
+I take on client work across the stack — storefronts, booking platforms,
+mobile apps, whatever a project needs — and in between, I build AI agents for
+myself. Mostly local ones: things that run on my own machine through
+[Ollama](https://ollama.com) instead of calling out to someone else's API.
 
-## About
-
-I'm a freelance web & mobile developer based in Colombo, Sri Lanka, working
-across the stack — Next.js/React frontends, Laravel/Node/Flask backends,
-Flutter/Kotlin mobile apps, and Shopify/WooCommerce storefronts for clients.
-
-Alongside client work, I build AI agents and automation tools for myself: local,
-offline, privacy-first systems that run entirely on local models via
-[Ollama](https://ollama.com) — no API keys, no data leaving the machine.
+🔗 **[charm-perera-portfolio-site.vercel.app](https://charm-perera-portfolio-site.vercel.app)**
 
 ---
 
-## 🤖 What I'm building right now — local AI agents
+## 🤖 The agents I'm actually using day to day
 
-| Project | What it does |
+| Project | What it is |
 |---|---|
-| **[David](https://github.com/CharmThiekshanaPerera/David)** | A local, offline, safety-first autonomous coding agent. Plans → codes → tests → reflects, in a strict sandboxed workspace, using local Ollama models — with a Flask web Control Center, controlled browsing, vision, and voice. |
-| **[Cortexa](https://github.com/CharmThiekshanaPerera/Cortexa)** | A local Windows system health monitor & optimizer (PowerShell + WPF) with an optional local AI agent via Ollama. Advisory-only: it suggests, it never executes without confirmation. |
-| **[mirror-shark](https://github.com/CharmThiekshanaPerera/mirror-shark)** | Mirror and control an Android phone from Windows over Wi-Fi — a single-exe desktop app (Python, PySide6) with sound, recording, and file transfer. |
+| **[David](https://github.com/CharmThiekshanaPerera/David)** | My coding agent. It plans a task, writes the code, runs the tests itself, and only touches files inside a sandboxed project folder — I wanted something that codes carefully, not a bot that just runs shell commands. |
+| **[Cortexa](https://github.com/CharmThiekshanaPerera/Cortexa)** | A Windows health-monitor + optimizer with a local model attached for advice. It will tell me what's wrong and suggest a fix — it won't touch anything without me saying yes. |
+| **[mirror-shark](https://github.com/CharmThiekshanaPerera/mirror-shark)** | Mirrors and controls my Android phone from Windows over Wi-Fi — screen, sound, file transfer, recording, packaged as one exe. |
 
-All three share the same philosophy: **local-first, sandboxed, and the human stays
-in control.**
+I keep coming back to the same rule across all three: local models, a sandbox,
+and nothing autonomous happens without a human (me) in the loop.
 
 ---
 
-## 💼 Selected work
+## 💼 Some of what I've built for clients and for fun
 
-**Web & E-commerce**
-- `unikcreations` — Laravel 11 e-commerce rebuild (storefront + Filament admin), replacing a legacy WordPress/WooCommerce site
-- `Verande-Shopify` — Shopify storefront build
+**Web & e-commerce**
+- `unikcreations` — rebuilt a client's legacy WordPress/WooCommerce store in Laravel 11 (storefront + Filament admin)
+- `Verande-Shopify` — a Shopify storefront build
 - `ringtones-site` — a MobCup-style MP3 ringtone site (Next.js 16, Prisma, Tailwind)
-- `charm-perera-portfolio-site` — my own portfolio + CMS (Next.js 15 monorepo, MongoDB Atlas, Vercel)
-- Small-business and event sites: `future-tech-hub`, `apex-tech-hub`, `Mega-Pharma-website`, `kavini-nuwan-wedding`, `homecoming-reception`
+- `charm-perera-portfolio-site` — my own portfolio + CMS, the one linked above
+- A handful of small-business and event sites: `future-tech-hub`, `apex-tech-hub`, `Mega-Pharma-website`, `kavini-nuwan-wedding`, `homecoming-reception`
 
-**Travel, Food & Booking Platforms**
-- `lanka-traveler-app`, `lanka-vendor-app`, `Lanka-Pass-Travel-Frontend` / `-Backend` — a Sri Lanka travel booking platform (traveler + vendor apps, shared backend)
-- `Ceylon-Eat-Backend` — food ordering backend
-- `restaurant-frontend` / `restaurant-backend`, `Coffee-Shop` / `-Backend`
+**Travel, food & booking**
+- `lanka-traveler-app` + `lanka-vendor-app` + `Lanka-Pass-Travel-Frontend`/`-Backend` — a Sri Lanka travel booking platform, traveler app and vendor app sharing one backend
+- `Ceylon-Eat-Backend` — a food ordering backend
+- `restaurant-frontend`/`-backend`, `Coffee-Shop`/`-Backend`
 
 **Mobile**
-- `DocScanner` (Kotlin) + `docscan-website` — a document scanner app and its companion site
-- `sonora` — a minimal, themeable Android music player (Flutter)
+- `DocScanner` (Kotlin) + `docscan-website` — a document scanner app and the site for it
+- `sonora` — a small, themeable Android music player built in Flutter, mostly because I wanted one that looked the way I wanted
 - `CountDownMobile`, `coffee-shop-mobile-app`
 
-**AI / Machine Learning**
-- `Multi-Functional-AI-Agent`, `langchain-agent-demo`, `SmolLM3-3B-AI-Chatbot` — agent & LLM experiments
-- `house-price-prediction-app`, `House-price-prediction-using-regression`, `Heart-Attack-Risk-Prediction-App` — applied ML/regression projects
+**AI / ML**
+- `Multi-Functional-AI-Agent`, `langchain-agent-demo`, `SmolLM3-3B-AI-Chatbot` — agent and LLM experiments
+- `house-price-prediction-app`, `House-price-prediction-using-regression`, `Heart-Attack-Risk-Prediction-App` — regression/ML coursework I actually finished and shipped as working apps
 
-This is a slice, not the whole list — **160+ repositories** and counting, spanning
-client work, products, and things I just wanted to learn by building.
+That's a slice — I'm sitting at 160+ repos at this point, between client work,
+my own products, and things I built purely to learn how they worked.
 
 ---
 
-## 🛠️ Tech I work with
+## 🛠️ What I build with
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -76,14 +65,12 @@ client work, products, and things I just wanted to learn by building.
 ![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
 ![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
-<br/>
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-<br/>
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Shopify](https://img.shields.io/badge/-Shopify-7AB55C?style=flat-square&logo=shopify&logoColor=white)
 ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
@@ -93,9 +80,6 @@ client work, products, and things I just wanted to learn by building.
 
 <div align="center">
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=CharmThiekshanaPerera&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CharmThiekshanaPerera&layout=compact&theme=tokyonight&hide_border=true)
-
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=CharmThiekshanaPerera&theme=tokyonight&hide_border=true)
 
 </div>
@@ -104,7 +88,8 @@ client work, products, and things I just wanted to learn by building.
 
 <div align="center">
 
-📫 Find my work, get in touch, or see what I'm building next:
+Usually building something. If you want to see what, the portfolio site has
+the full list and a way to reach me:
 **[charm-perera-portfolio-site.vercel.app](https://charm-perera-portfolio-site.vercel.app)**
 
 </div>
