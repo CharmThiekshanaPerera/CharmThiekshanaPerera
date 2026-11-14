@@ -11,7 +11,7 @@ mobile apps, whatever a project needs — and in between, I build AI agents for
 myself. Mostly local ones: things that run on my own machine through
 [Ollama](https://ollama.com) instead of calling out to someone else's API.
 
-🔗 **[charm-perera-portfolio-site.vercel.app](https://charm-perera-portfolio-site.vercel.app)**
+🔗 **[charmthiekshana.com](https://charmthiekshana.com)**
 
 ---
 
@@ -90,6 +90,6 @@ my own products, and things I built purely to learn how they worked.
 
 Usually building something. If you want to see what, the portfolio site has
 the full list and a way to reach me:
-**[charm-perera-portfolio-site.vercel.app](https://charm-perera-portfolio-site.vercel.app)**
+**[charmthiekshana.com](https://charmthiekshana.com)**
 
 </div>
